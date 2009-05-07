@@ -1,0 +1,67 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="zh-cn" xml:lang="zh-cn">
+<head>
+<title>vvoody's</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-language" content="zh-cn" />
+
+<link href="main.css" rel="stylesheet" type="text/css" media="screen, projection" />
+<script type="text/javascript">
+<!-- //
+function rand_interests(){
+    var myinterests = new Array('<img src="me/slackware.png" alt="Slackware" />',
+                                '<img src="me/emacs.png" alt="Emacs" />',
+                                '<img src="me/kde.png" alt="KDE" />',
+                                '<img src="me/opera.png" alt="Opera" />',
+                                '<img src="me/python.png" alt="Python" />',
+                                '<img src="me/juventus.png" alt="Juventus" />'
+                               );
+    var MAX = 6;
+    var x, y;
+    var tmp = "";
+    for(var i=0; i<MAX; ++i) {
+        x = Math.floor(Math.random()*6);
+        y = Math.floor(Math.random()*6);
+        tmp = myinterests[x];
+        myinterests[x] = myinterests[y];
+        myinterests[y] = tmp;
+    }
+    for(var i=0; i<MAX; ++i)
+        document.getElementById("interests").innerHTML += myinterests[i] + "&nbsp";
+}
+window.onload = rand_interests;
+// -->
+</script>
+</head>
+<body>
+
+<div id="content"><!-- content -->
+<h1>/vvoody/home&nbsp;<span>;-)</span></h1>
+
+<div id="board"><!-- board -->
+
+<p>
+Interests
+</p>
+<div id="interests"><!-- interests -->
+</div><!-- interests-->
+
+<p>
+Find Me
+</p>
+<div id="findme"><!-- findme -->
+<a href="http://www.douban.com/people/vvoody"><img src="me/douban.png" alt="douban" /></a>
+<a href="http://twitter.com/vvoody"><img src="me/twitter.png" alt="twitter" /></a>
+</div><!-- findme -->
+
+</div><!-- board -->
+
+<div id="footer"><!-- footer -->
+<p>my <a href="./blog">blog</a>
+<span>wxj.g.sh<img src="me/emailat.png" alt="{AT}" title="wxj{AT}vvoody.org" />gmail.com</span></p>
+</div><!-- footer -->
+</div><!-- content -->
+</body>
+</html>

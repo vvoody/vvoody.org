@@ -1,0 +1,11 @@
+/* Designed by Csineneo */
+body {margin:0;padding:0;}
+#content{width:600px; margin:200px auto 0 auto;}
+h1 {padding:10px 20px;border:1px solid #ccc;text-align:center;}
+h1 span {color:blue;}
+#board {margin-top:10px;border:1px solid #ccc;padding:10px 20px;text-align:center;}
+#board #current {text-align:center;}
+#board #current span{font-size:48px;color:red;text-align:center;}
+#footer {border:1px solid #ccc;margin-top:10px;padding:0 20px;font-size: medium;}
+#footer a {text-decoration:none;}
+#footer span {float:right; font-size: medium;}
